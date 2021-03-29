@@ -135,7 +135,7 @@ footer.site-footer {
   background: #fff;
   margin: 20px auto;
   padding: 20px;
-  width: 80%;
+  width: 100%;
   /* max-width: 1020px; */
   border-radius: 5px;
   position: relative;
@@ -216,6 +216,15 @@ article.post {
   border-color: #777;
 }
 
+.home #secondary {
+  width: 100%;
+  clear: both;
+}
+
+.home #secondary .widget {
+  width: 30%;
+  float: left;
+}
 
 #secondary {
   width: 25%;

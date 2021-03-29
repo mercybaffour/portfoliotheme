@@ -19,7 +19,7 @@
         <?php echo  paginate_links(); ?>
 
 
-      <p>Template: archive.php</p>
+      <p>Template: date.php</p>
 
     </main>
 

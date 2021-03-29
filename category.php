@@ -5,6 +5,7 @@
     <main id="main" class="site-main" role="main">
 
         <h1><?php the_archive_title(); ?></h1>
+        <p><?php echo category_description(); ?></p>
 
       <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 
@@ -19,7 +20,7 @@
         <?php echo  paginate_links(); ?>
 
 
-      <p>Template: archive.php</p>
+      <p>Template: category.php</p>
 
     </main>
 

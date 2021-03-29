@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-  <div id="primary" class="content-area">
+  <div id="primary" class="content-area narrow">
 
     <main id="main" class="site-main" role="main">
 
@@ -19,12 +19,10 @@
         <?php echo  paginate_links(); ?>
 
 
-      <p>Template: archive.php</p>
+      <p>Template: taxonomy.php</p>
 
     </main>
 
   </div>
-
-  <?php get_sidebar(); ?>
 
 <?php get_footer(); ?>
