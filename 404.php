@@ -4,7 +4,14 @@
 
     <main id="main" class="site-main" role="main">
 
-        <?php get_template_part( 'template-parts/content', 'none' ); ?>
+    <div class="page-wrapper">
+				<div class="page-content">
+					<h1><?php _e( '4-OHHHHHH-4', 'mercy' ); ?></h1>
+					<p><?php _e( 'It looks like nothing was found at this location. Maybe try a search?', 'mercy' ); ?></p>
+
+    </div>
+
+    <?php get_template_part( 'template-parts/content', 'none' ); ?>
 
     </main>
 
