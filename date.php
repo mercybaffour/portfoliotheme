@@ -18,9 +18,6 @@
 
         <?php echo  paginate_links(); ?>
 
-
-      <p>Template: date.php</p>
-
     </main>
 
   </div>

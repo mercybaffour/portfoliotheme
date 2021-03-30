@@ -18,9 +18,6 @@
 
         <?php echo  paginate_links(); ?>
 
-
-      <p>Template: home.php</p>
-
     </main>
 
   </div>

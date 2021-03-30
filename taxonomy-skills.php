@@ -18,9 +18,6 @@
 
         <?php echo  paginate_links(); ?>
 
-
-      <p>Template: taxonomy-skills.php</p>
-
     </main>
 
   </div>

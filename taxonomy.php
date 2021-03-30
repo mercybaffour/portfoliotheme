@@ -18,9 +18,6 @@
 
         <?php echo  paginate_links(); ?>
 
-
-      <p>Template: taxonomy.php</p>
-
     </main>
 
   </div>

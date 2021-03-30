@@ -48,6 +48,7 @@ function wptags_comment() {
 // Register Menu Locations
 register_nav_menus( [
   'main-menu' => esc_html__( 'Main Menu', 'mercy' ),
+  'mobile-menu' => esc_html__( 'Mobile Menu', 'mercy' )
 ]);
 
 //Setup Widget Areas

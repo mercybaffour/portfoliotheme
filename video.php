@@ -36,8 +36,6 @@
 
       <?php endif; ?>
 
-      <p>Template: video.php</p>
-
     </main>
 
   </div>

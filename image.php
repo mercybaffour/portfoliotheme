@@ -36,8 +36,6 @@
 
       <?php endif; ?>
 
-      <p>Template: image.php</p>
-
     </main>
 
   </div>

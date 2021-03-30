@@ -36,8 +36,6 @@
 
       <?php endif; ?>
 
-      <p>Template: attachment.php</p>
-
     </main>
 
   </div>

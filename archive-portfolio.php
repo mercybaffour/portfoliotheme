@@ -18,9 +18,6 @@
 
         <?php echo  paginate_links(); ?>
 
-
-      <p>Template: archive-portfolio.php</p>
-
     </main>
 
   </div>

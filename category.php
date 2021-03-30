@@ -19,9 +19,6 @@
 
         <?php echo  paginate_links(); ?>
 
-
-      <p>Template: category.php</p>
-
     </main>
 
   </div>

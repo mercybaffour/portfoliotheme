@@ -13,7 +13,7 @@ Lorem to the longer descriptionum.
 */
 
 body {
-  background-color: #6B9080;
+  background-color: #494329;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -39,7 +39,7 @@ h2.search-title {
 }
 
 a {
-  color: #494329;
+  color: inherit;
   text-decoration: none;
 }
 
@@ -60,38 +60,57 @@ ul {
   padding-left: 0;
   margin-left: 20px;
   list-style-position: outside;
+  text-align: right;
+}
+
+li {
+  display: inline;
+}
+
+.site-branding{
+  float: left;
 }
 
 .site-title {
   font-size: 3rem;
   font-weight: bold;
-  margin: 0 0 1rem 0;
-  padding-top: 100px;
-  text-transform: uppercase;
+  /* margin: 0 0 1rem 0; */
+  text-transform: lowercase;
+  display: inline;
+  padding-left: 10px;
 }
+
+
 
 #masthead {
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
-  height: 300px;
-  background: url(images/ghana.jpg) no-repeat;
-  background-position: 100%;
-  background-size: cover;
+  height: 120px;
+  background: black;
 }
 
 #masthead,
 footer.site-footer {
   /* margin: 2rem auto 1rem; */
-  text-align: center;
   width: 100%;
 }
 
+footer a {
+  color: white;
+}
+
 .main-navigation {
-  padding-top: 40px;
+  /* padding-top: 40px; */
   font-family: 'Comfortaa', cursive;
+  font-weight: bold;
   text-transform: uppercase;
+  color: #494329;
+  padding-top: 30px;
+  padding-right: 10px;
+
+
 }
 
 .main-navigation li {
@@ -99,13 +118,15 @@ footer.site-footer {
   display: inline-block;
 }
 
-.main-navigation li a {
+.main-navigation li a, .site-title a {
   padding: 5px;
+  color:white;
+  text-decoration: none;
 }
 
-.main-navigation li:hover>a {
+/* .main-navigation li:hover>a {
   color: #000;
-}
+} */
 
 .main-navigation li.current-menu-item>a,
 .main-navigation li.current-page-parent>a {
@@ -135,13 +156,13 @@ footer.site-footer {
   background: #fff;
   margin: 20px auto;
   padding: 20px;
-  width: 100%;
+  width: 80%;
   /* max-width: 1020px; */
   border-radius: 5px;
   position: relative;
   overflow: auto;
-  -ms-word-wrap: break-word;
-  word-wrap: break-word;
+  /* -ms-word-wrap: break-word; */
+  /* word-wrap: break-word; */
 }
 
 .single-portfolio #content,
@@ -184,12 +205,12 @@ article.post {
   margin-bottom: 2rem;
 }
 
-.prev-posts,
+/* .prev-posts,
 .next-posts,
 .archive article.portfolio {
   width: 45%;
   float: left;
-}
+} */
 
 .next-posts {
   text-align: right;

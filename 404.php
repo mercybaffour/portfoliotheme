@@ -6,8 +6,6 @@
 
         <?php get_template_part( 'template-parts/content', 'none' ); ?>
 
-      <p>Template: 404.php</p>
-
     </main>
 
   </div>

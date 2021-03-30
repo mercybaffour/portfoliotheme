@@ -14,8 +14,6 @@
 
       <?php endif; ?>
 
-      <p>Template: single.php</p>
-
     </main>
 
   </div>

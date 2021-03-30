@@ -3,8 +3,8 @@
 
   <footer id="colophon" class="site-footer" role="contentinfo">
 
-    <a href="<?php echo esc_url( __( 'https://wordpress.org/', 'mercy' ) ); ?>">
-      <?php printf( esc_html__( 'Proudly powered by %s', 'mercy' ), 'WordPress' ); ?>
+    <a href="<?php echo esc_url( __( 'https://www.linkedin.com/in/mercybaffour/', 'mercy' ) ); ?>">
+      <?php printf( esc_html__( 'More About Me: %s', 'mercy' ), 'LinkedIn' ); ?>
     </a>
 
   </footer>

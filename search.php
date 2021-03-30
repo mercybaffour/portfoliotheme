@@ -19,8 +19,6 @@
 
       <?php endif; ?>
 
-      <p>Template: search.php</p>
-
     </main>
 
   </div>

@@ -25,9 +25,6 @@
 
         <?php echo  paginate_links(); ?>
 
-
-      <p>Template: author.php</p>
-
     </main>
 
   </div>
